@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Cabin&family=Comforter&family=Dancing+Script:wght@700&family=Montserrat:wght@100;200&family=Neonderthaw&family=Nunito:wght@200&family=PT+Sans+Narrow&family=Poiret+One&family=Press+Start+2P&family=Raleway:wght@600&family=Righteous&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tai+Heritage+Pro&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: center; */
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 12px;
+    margin-right: 23px;
+    font-size: 4vh;
+    transition: 1s ease-in;
+}
+
+nav ul a:hover {
+
+    color: red;
+}
+
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* height: 900px; */
+    /* background-image: url("https://wallpaperaccess.com/full/2142874.jpg"); */
+    background-image: url("./img/m1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 24px 39px;
+    gap: 7vh;
+}
+
+.brand img {
+    /* position: absolute; */
+    width: 65px;
+    border-radius: 45px;
+    padding: 0 9px;
+
+}
+
+.brand {
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.about {
+    width: 33vw;
+    height: 14vh;
+    text-align: justify;
+    color: #f7f7f7;
+    text-shadow: 1px 0px 10px black;
+    font-size: 3.5vh;
+}
+
+.connectMe {
+    color: red;
+    text-align: center;
+    height: 83vh;
+    width: 30vw;
+    text-shadow: 1px 0px 10px rgb(92, 6, 6);
+}
+
+.siteimg {
+    width: 2.7vw;
+    height: 6vh;
+    padding: 10px 13px;
+    margin-top: 23px;
+    margin: 19px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 24px red;
+    transition: 0.1s ease-in;
+}
+
+.siteimg:hover {
+    box-shadow: 0px 0px 50px rgb(249, 249, 249);
+    border: 2px solid red;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .container {
+        background-image: url("./img/bgImg.jpg");
+        background-size: 94vh;
+        overflow: hidden;
+        gap: 50vh;
+    }
+
+    .about {
+        width: 56vw;
+        height: 5vh;
+        font-size: 1.5vh;
+    }
+
+    .connectMe {
+        width: 76vw;
+    }
+
+    .siteimg {
+        width: 6.7vw;
+        height: 3vh;
+        padding: 14px 13px;
+    }
+}

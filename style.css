@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Cabin&family=Comforter&family=Dancing+Script:wght@700&family=Montserrat:wght@100;200&family=Neonderthaw&family=Nunito:wght@200&family=PT+Sans+Narrow&family=Poiret+One&family=Press+Start+2P&family=Raleway:wght@600&family=Righteous&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tai+Heritage+Pro&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+nav {
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+ 
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 12px;
+    margin-right: 23px;
+    font-size: 4vh;
+    transition: 1s ease-in;
+}
+nav ul a:hover{
+  
+    color: red
+;
+}
+
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    padding: 23px;
+    width: 82%;
+    /* height: 900px; */
+    /* background-image: url("./m1.jpg"); */
+    background-image: url("https://wallpaperaccess.com/full/2142874.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.brand img {
+    /* position: absolute; */
+    width: 65px;
+    border-radius: 45px;
+    padding: 0 9px;
+
+}
+
+.brand {
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+
+.bottom {
+    position: sticky;
+    height: 33px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding: 23px;
+}
+
+.songItemContainer {
+    margin-top: 0 23px;
+}
+
+.icons {
+    margin-top: 4px;
+    font-size: 26px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 81vw;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /* width: 66%; */
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    height: 32px;
+
+}
+
+.songItem img {
+    width: 53px;
+    margin: 0 25px;
+    border-radius: 30px;
+}
+
+.timestamp {
+    margin: 0 11px;
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 9vw;
+    font-family: 'varela Round', sans-serif;
+}
+
+.songInfo img {
+    /* when the opacity is 0 the img will be transparant */
+    /* when the opacity is 1 the img will be visible */
+    opacity: 0;
+    transition: 1.2s ease-in; /* img will transperant in 1s of fade-out*/
+}
+
+@media  screen and (max-width:500px) {
+    
+}
