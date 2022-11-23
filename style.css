@@ -149,5 +149,8 @@ nav ul a:hover{
     .songInfo{
         left: 0vw;
     }
+    nav ul a{
+        font-size: 3vh;
+    }
 
 }
